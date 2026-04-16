@@ -143,4 +143,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # TEST — borrar después
+    send_discord_alert(["1 mayo", "2 mayo"], True, False)
+    # main()
